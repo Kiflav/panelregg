@@ -1058,6 +1058,7 @@ max-width: unset !important;
 .carousel-banner-item img {
   width: 42px;
   height: 42px;
+	color:black;
 }
 
 /* Indicators */
