@@ -1252,6 +1252,11 @@ max-width: unset !important;
   top: 32%;
 }
 
+.carousel-button svg {
+	  width: 3rem;
+  height: 3rem;
+}
+
 .left {
   left: 0.25rem;
 }
