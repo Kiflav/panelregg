@@ -1058,8 +1058,6 @@ max-width: unset !important;
 .carousel-banner-item img {
   width: 42px;
   height: 42px;
-	color:black;
-	display:block;
 }
 
 /* Indicators */
@@ -1257,6 +1255,9 @@ max-width: unset !important;
 .carousel-button svg {
 	  width: 3rem;
   height: 3rem;
+	opacity: 1;
+	color:black;
+	display:block;
 }
 
 .left {
