@@ -1059,6 +1059,7 @@ max-width: unset !important;
   width: 42px;
   height: 42px;
 	color:black;
+	display:block;
 }
 
 /* Indicators */
