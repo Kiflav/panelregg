@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+.whitepaperbutton {
+	color: #ffffff;
+	background-color: #5e8ac7;
+	border-radius: 4px;
+	border: none;
+	padding: 6px 12px;
+	cursor: pointer;
+}
+
+
+/*-------------------------------- ACCORDEON MENU ------------------------------*/
+
+#accordion .card {
+	margin: 0;
+	border-radius: 0;
+	margin-top: -1px;
+}
+
+#accordion .card-header {
+	border-bottom: 0;
+	padding: .5rem 3.25rem .5rem 1rem;
+	cursor: pointer;
+}
+
+#accordion .card:first-child {
+	border-top-left-radius: .25rem;
+	border-top-right-radius: .25rem;
+	margin-top: 0;
+}
+
+#accordion .card:last-child {
+	border-bottom-left-radius: .25rem;
+	border-bottom-right-radius: .25rem;
+}
+
+#accordion .btn.btn-link::after {
+	content: "\f078";
+	display: block;
+	position: absolute;
+	right: 20px;
+	font-family: Font Awesome\ 5 Free;
+	font-weight: 900;
+	font-size: 1.5rem;
+	color: #323232;
+	top: 4px;
+}
+
+#accordion .btn.btn-link {
+	padding: 0;
+	color: #323232;
+	font-weight: bold;
+	text-decoration: none !important;
+	white-space: unset;
+	text-align: left;
+	font-size: 0.95rem;
+}
+
+#accordion .card-body {
+	font-size: 0.9rem;
+	padding: 1rem;
+}
+
+#accordion .card-body a {
+	font-size: 0.9rem;
+}
+
+.profit-block .card-text a {
+	color: #323232;
+	text-decoration: underline;
+}
+
+#accordion .collapsed .btn.btn-link {
+	font-weight: normal;
+}
+
+
+
+
+
+/* ------------------------------- MEDIAQUERIES -------------------------------*/
+
+@media (max-width:768px) {
+	
+	#accordion .btn.btn-link {
+		font-size: 12px;
+	}
+	
+
+
+
+
+
+
+

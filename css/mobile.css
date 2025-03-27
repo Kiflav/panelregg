@@ -1,0 +1,810 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+
+and (max-width :484px) {
+
+
+    .tinynav {
+display: block;
+width: 100%;
+font-size: 14px;
+font-weight: bold;
+height: 30px;
+background: #5f8bc8;
+color: white;
+line-height: 30px;
+border: none;
+outline: none;
+-moz-box-shadow: 2px 3px 5px #999;
+box-shadow: 2px 3px 5px #999;
+	}
+  
+
+#breadcrum a {
+font-size: 14px;	
+}
+	
+ 
+    #navigation {
+		display: none !important;
+		}
+	
+	#nav {
+	background:none;
+	box-shadow: none;
+	-moz-box-shadow:none;
+	width:100%;
+	}
+	
+	#nav2 {
+	background:none;
+	box-shadow: none;
+	-moz-box-shadow:none;
+	width:100%;
+	}
+	
+	
+	
+	body {
+	padding:14px;	
+	}
+	
+	#logo {
+	position: absolute;
+	display: block;
+	top: 50px;
+	border: 0;
+	background: #ffffff;
+	padding: 5px;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	box-shadow: 5px 5px 5px #ccc;
+	width: 120px;
+	height: auto;
+	}
+	
+	#wereldbol {
+		left: -14px;
+		z-index:-1;
+		width:100%;
+		}
+		
+		section {
+	width:100%;  
+  }
+	
+	#container,header,#nav,#left_home,#middle_home,#right_home,#side_home,#side, #side_home ul, #side ul,footer {
+		width:100%;
+		left:0px;
+	}
+	
+	#left_home_head,#middle_home_head,#right_home_head {
+	display:none;	
+	}
+	
+	#left_home > div {
+	min-height: 179px;
+	font-weight: bold;
+	background:url('../images/mobile_1.png') no-repeat 8px 8px #fff;
+	z-index:4;
+	padding-top: 82px;
+	}
+	
+	#middle_home > div {
+	min-height: 179px;
+	font-weight: bold;
+	background:url('../images/mobile_2.png') no-repeat 8px 8px #fff;
+	z-index:4;
+	padding-top: 82px;
+	}
+	
+	#right_home > div {
+	min-height: 179px;
+	font-weight: bold;
+	background:url('../images/mobile_3.png') no-repeat 8px 8px #fff;
+	z-index:4;
+	padding-top: 82px;
+	}
+	
+	#left_home,#middle_home,#right_home {
+	margin-top:0;	
+	}
+	
+	
+	
+	#side_home ul, #side ul {
+	padding:0px;
+	margin:0px;
+	top: 68px;
+	}
+	
+	#side_home, #side {
+	top:0px;
+	}
+	
+	#side_home ul li, #side ul li {
+font-size: 12px !important;
+margin-top: 10px;
+line-height: 15px;
+}
+	
+	#side {
+margin-top: 0px !important;	
+top: 0px;
+}
+	
+	
+	section {
+		top:auto !important;
+		position:relative !important;
+		min-height:0px !important; 
+	}
+
+section p,section h4,section h2, section span  {
+font-size: 14px !important;
+font-weight: normal !important;
+line-height: 19px !important;
+}
+
+section h2 {
+	font-weight:bold !important; 
+}
+
+section h3 {
+font-size:16px;	
+}
+
+section h2 a {
+	font-size: 15px !important; 
+}
+
+	div {
+		position:relative !important;
+		margin-top:20px;
+	}
+	
+	.link_contact {
+float:none;
+margin-top: 60px;
+}
+
+#parallax-bg2 {
+display: none;
+}
+
+#side_home, #side {
+margin-top:80px;
+}
+
+#side_home ul li, #side ul li {
+font-size:14px;	
+}
+
+#flags li a.selected,#flags li a,#flags li a#de {
+	margin-right:15px;
+}
+
+#flags li a#uk {
+	margin-right:0px;
+}
+footer {
+top: 81px;	
+}
+
+
+
+#buttons h4 {
+margin-right: 4px;
+border-radius: 9px;
+-moz-border-radius: 9px;
+width: 134px;
+background-position: -41px 0;
+margin-bottom: 7px !important;
+margin-top: -2px !important;
+}
+
+#trigger1.active,#trigger2.active,#trigger3.active,#trigger4.active,#trigger5.active,#trigger6.active,#trigger7.active,#trigger8.active,#trigger9.active,#trigger10.active,#trigger11.active {
+background-position: -41px -45px !important;	
+}
+
+#trigger1:hover,#trigger2:hover,#trigger3:hover,#trigger4:hover,#trigger5:hover,#trigger6:hover,#trigger7:hover,#trigger8:hover,#trigger9:hover,#trigger10:hover,#trigger11:hover {
+background-position: -41px -45px !important;	
+}
+ #buttons {
+margin-bottom: 61px !important;
+ }
+
+
+}
+
+
+
+@media only screen 
+and (min-width :485px) 
+and (max-width : 582px) {
+
+
+    .tinynav {
+display: block;
+width: 30%;
+font-size: 14px;
+font-weight: bold;
+height: 30px;
+background: #5f8bc8;
+color: white;
+line-height: 30px;
+border: none;
+outline: none;
+-moz-box-shadow: 2px 3px 5px #999;
+box-shadow: 2px 3px 5px #999;
+	}
+  
+
+#breadcrum a {
+font-size: 14px;	
+}
+	
+ 
+    #navigation {
+		display: none !important;
+		}
+	
+	#nav {
+	background:none;
+	box-shadow: none;
+	-moz-box-shadow:none;
+	width:100%;
+	}
+	
+	#nav2 {
+	background:none;
+	box-shadow: none;
+	-moz-box-shadow:none;
+	width:100%;
+	}
+	
+	
+	
+	body {
+	padding:14px;	
+	}
+	
+	#logo {
+	position: absolute;
+	display: block;
+	top: 40px;
+	border: 0;
+	background: #ffffff;
+	padding: 5px;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	box-shadow: 5px 5px 5px #ccc;
+	}
+	
+	#wereldbol {
+		left: -14px;
+		z-index:-1;
+		width:100%;
+		}
+		
+		section {
+	width:100%;  
+  }
+	
+	#container,header,#nav,#left_home,#middle_home,#right_home,#side_home,#side, #side_home ul, #side ul,footer {
+		width:100%;
+		left:0px;
+	}
+	
+	#left_home_head,#middle_home_head,#right_home_head {
+	display:none;	
+	}
+	
+	#left_home > div {
+	min-height: 179px;
+	font-weight: bold;
+	background:url('../images/mobile_1.png') no-repeat 8px 8px #fff;
+	z-index:4;
+	padding-top: 82px;
+	}
+	
+	#middle_home > div {
+	min-height: 179px;
+	font-weight: bold;
+	background:url('../images/mobile_2.png') no-repeat 8px 8px #fff;
+	z-index:4;
+	padding-top: 82px;
+	}
+	
+	#right_home > div {
+	min-height: 179px;
+	font-weight: bold;
+	background:url('../images/mobile_3.png') no-repeat 8px 8px #fff;
+	z-index:4;
+	padding-top: 82px;
+	}
+	
+	#left_home,#middle_home,#right_home {
+	margin-top:0;	
+	}
+	
+	
+	
+	#side_home ul, #side ul {
+	padding:0px;
+	margin:0px;
+	top: 68px;
+	}
+	
+	#side_home, #side {
+	top:0px;
+	}
+	
+	#side_home ul li, #side ul li {
+font-size: 12px !important;
+margin-top: 10px;
+line-height: 15px;
+}
+	
+	#side {
+margin-top: 0px !important;	
+top: 0px;
+}
+	
+	
+	section {
+		top:auto !important;
+		position:relative !important;
+		min-height:0px !important; 
+	}
+
+section p,section h4,section h2, section span  {
+font-size: 14px !important;
+font-weight: normal !important;
+line-height: 19px !important;
+}
+
+section h2 {
+	font-weight:bold !important; 
+}
+
+section h3 {
+font-size:16px;	
+}
+
+section h2 a {
+	font-size: 15px !important; 
+}
+
+	div {
+		top:auto !important;
+		position:relative !important;
+		margin-top:20px;
+	}
+	
+	.link_contact {
+float:none;
+margin-top: 60px;
+}
+
+#parallax-bg2 {
+display: none;
+}
+
+#side_home, #side {
+margin-top:80px;
+}
+
+#side_home ul li, #side ul li {
+font-size:14px;	
+}
+
+#flags li a.selected,#flags li a,#flags li a#de {
+	margin-right:15px;
+}
+
+#flags li a#uk {
+	margin-right:0px;
+}
+
+footer {
+top: 81px;	
+}
+
+ #buttons {
+margin-bottom: -61px !important;
+ }
+
+#buttons h4 {
+margin-right: 4px;
+border-radius: 9px;
+-moz-border-radius: 9px;
+width: 134px;
+background-position: -41px 0;
+margin-bottom: 7px !important;
+margin-top: -2px !important;
+}
+
+#trigger1.active,#trigger2.active,#trigger3.active,#trigger4.active,#trigger5.active,#trigger6.active,#trigger7.active,#trigger8.active,#trigger9.active,#trigger10.active,#trigger11.active {
+background-position: -41px -45px !important;	
+}
+
+#trigger1:hover,#trigger2:hover,#trigger3:hover,#trigger4:hover,#trigger5:hover,#trigger6:hover,#trigger7:hover,#trigger8:hover,#trigger9:hover,#trigger10:hover,#trigger11:hover {
+background-position: -41px -45px !important;	
+}
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 583px) 
+and (max-width : 689px) {
+	
+#side_home, #side {
+position: relative;
+margin-top: 440px;
+left: 50%;
+margin-left: -270px;
+width: 539px;
+top: 130px;
+right: 0;
+color: #5f8bc8;
+font-size: 12px;
+font-family: Arial,Helvetica,sans-serif;
+}
+
+#side {
+margin-top: 0px;	
+top: 80px;
+}
+
+
+
+#side_home ul, #side ul {
+position: relative;
+left: -30px;
+width: 538px;
+color: #656565;
+list-style: none;
+margin-top: 16px;
+}
+
+
+#side_home ul li, #side ul li {
+font-size: 12px;
+line-height: 19px;
+}	
+
+
+	
+	
+.tinynav {
+display: block;
+width: 30%;
+font-size: 14px;
+font-weight: bold;
+height: 30px;
+background: #5f8bc8;
+color: white;
+line-height: 30px;
+border: none;
+outline: none;
+-moz-box-shadow: 2px 3px 5px #999;
+box-shadow: 2px 3px 5px #999;
+	}
+	
+	#navigation {
+		display: none !important;
+		}
+	
+	#nav2 {
+	background:none;
+	box-shadow: none;
+	-moz-box-shadow:none;
+	width:100%;
+	}
+  
+  #container {
+	width:100%;  
+  }
+  
+  
+  header {
+	width:100%;  
+  }
+  
+ 
+  
+  	section {
+	width:100%;  
+  }
+  
+  section h3 {
+font-size:16px;	
+}
+  
+  #wereldbol {
+position: absolute;
+display: block;
+top: 0px;
+left: 0px;
+z-index:-1;
+}
+  
+  
+  #left_home_head {
+left: 50%;
+margin-left: -274px;
+  }
+  
+  #left_home {
+	  position: absolute;
+left: 50%;
+margin-left: -275px;
+  }
+  
+  #left_home > div {
+  min-height: 258px;
+font-weight: bold;
+margin-top: 157px;
+  }
+  
+  
+#middle_home_head {
+position: absolute;
+ left: 50%;
+  margin-left: -107px;
+top: 228px;
+width: 208px;
+min-height: 115px;
+height: 115px;
+display: block;
+font-size: 12px;
+text-align: middle;
+z-index: 1000;
+background: url(../images/middle_head.png) -47px;
+background-repeat: no-repeat;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+  
+  #middle_home {
+ left: 50%;
+  margin-left: -107px;
+position: absolute;
+top: 324px;
+width: 208px;
+height: auto;
+min-height: 0px;
+display: block;
+font-size: 12px;
+text-align: middle;
+z-index: 1000;
+}
+
+  section {
+	
+		min-height:0px !important; 
+	}
+  
+  
+  
+  #right_home_head {
+left: 50%;
+margin-left: 101px;
+}
+  
+  
+  #right_home {
+ left: 50%;
+  margin-left: 94px;
+  }
+	
+ 
+    #navigation {
+		display: none;
+		}
+	
+	#nav {
+	background:none;
+	box-shadow: none;
+	-moz-box-shadow:none;
+	width:100%;
+	}
+	
+	body {
+	padding:14px;	
+	}
+	
+footer {
+width: 100%;	
+top: 157px;
+}
+
+ 
+ #buttons h4 {
+margin-right:2px; 
+border-radius: 17px;
+-moz-border-radius: 17px;
+width: 151px;
+background-position: -36px 0;
+margin-bottom:7px !important;
+margin-top:7px !important;
+ }
+ 
+ #trigger1.active,#trigger2.active,#trigger3.active,#trigger4.active,#trigger5.active,#trigger6.active,#trigger7.active,#trigger8.active,#trigger9.active,#trigger10.active,#trigger11.active {
+background-position: -36px -45px !important;	
+}
+
+#trigger1:hover,#trigger2:hover,#trigger3:hover,#trigger4:hover,#trigger5:hover,#trigger6:hover,#trigger7:hover,#trigger8:hover,#trigger9:hover,#trigger10:hover,#trigger11:hover {
+background-position: -36px -45px !important;	
+}
+
+b {
+font-size:16px;	
+}
+	
+}
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 690px) 
+and (max-width : 840px) {
+
+
+#side_home,  #side {
+position: relative;
+margin-top: 462px;
+left: 50%;
+margin-left: -315px;
+width: 639px;
+top: 130px;
+right: 0;
+color: #5f8bc8;
+font-size: 12px;
+font-family: Arial,Helvetica,sans-serif;
+}
+
+#side {
+margin-top: 0px;	
+top: 80px;
+}
+
+#side_home ul,  #side ul {
+position: relative;
+left: -30px;
+width: 538px;
+color: #656565;
+list-style: none;
+margin-top: 16px;
+}
+
+
+#side_home ul li,  #side ul li {
+font-size: 12px;
+line-height: 19px;
+}
+
+
+section {
+		
+		min-height:0px !important; 
+	}
+
+
+  .tinynav {
+display: block;
+width: 30%;
+font-size: 14px;
+font-weight: bold;
+height: 30px;
+background: #5f8bc8;
+color: white;
+line-height: 30px;
+border: none;
+outline: none;
+-moz-box-shadow: 2px 3px 5px #999;
+box-shadow: 2px 3px 5px #999;
+	}
+	
+		#navigation {
+		display: none !important;
+		}
+	
+	#nav2 {
+	background:none;
+	box-shadow: none;
+	-moz-box-shadow:none;
+	width:100%;
+	}
+  
+  #container {
+	width:100%;  
+  }
+  
+  
+  header {
+	width:100%;  
+  }
+  
+  section {
+	width:100%;  
+  }
+  
+  
+  #left_home_head {
+left: 50%;
+margin-left: -314px;
+  }
+  
+  #left_home {
+	  position: absolute;
+left: 50%;
+margin-left: -315px;
+  }
+  
+  #left_home > div {
+  min-height: 258px;
+font-weight: bold;
+margin-top: 157px;
+  }
+  
+  
+  #middle_home_head {
+  left: 50%;
+  margin-left: -147px;
+  }
+  
+  #middle_home {
+ left: 50%;
+  margin-left: -147px;
+  }
+  
+  
+  
+  
+  #right_home_head {
+  left: 50%;
+  margin-left: 158px;
+  }
+  
+  #right_home {
+ left: 50%;
+  margin-left: 151px;
+  }
+  
+  
+  
+  
+  
+
+
+	
+ 
+    #navigation {
+		display: none;
+		}
+	
+	#nav {
+	background:none;
+	box-shadow: none;
+	-moz-box-shadow:none;
+	width:100%;
+	}
+	
+	body {
+	padding:14px;	
+	}
+	
+footer {
+width: 100%;
+top: 159px;
+}
+
+
+
+}
+
+

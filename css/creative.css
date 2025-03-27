@@ -1,0 +1,69 @@
+/*! * Start Bootstrap - Creative v5.0.1 (https://startbootstrap.com/template-overviews/creative) * Copyright 2013-2018 Start Bootstrap * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE) */
+
+@media (min-width:992px){
+    #mainNav{
+        border-color:transparent;
+       	border-bottom: 1px solid rgba(33,37,41,.1);
+background-color: #fff;
+margin-top: 8px;
+		
+    }
+/*    #mainNav .navbar-brand{
+        color:rgba(255,255,255,.7)
+    }
+    #mainNav .navbar-brand:focus,#mainNav .navbar-brand:hover{
+        color:#fff
+    }
+    #mainNav .navbar-nav>li.nav-item>a.nav-link{
+        padding:.5rem 1rem
+    }
+    #mainNav .navbar-nav>li.nav-item>a.nav-link,#mainNav .navbar-nav>li.nav-item>a.nav-link:focus{
+        color:000;
+    }
+    #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover,#mainNav .navbar-nav>li.nav-item>a.nav-link:hover{
+        color:#BD7677;
+    }
+    #mainNav.navbar-shrink{
+        border-bottom:1px solid rgba(33,37,41,.1);
+        background-color:#fff;	
+    }*/
+ /*   #mainNav.navbar-shrink .navbar-brand{
+        color:#5e8ac7
+    }
+    #mainNav.navbar-shrink .navbar-brand:focus,#mainNav.navbar-shrink .navbar-brand:hover{
+        color:#5e8ac7
+    }
+    #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link,#mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus{
+        color:#212529
+    }
+    #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover,#mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover{
+        color:#5e8ac7
+    }*/
+}
+
+/*@media (min-width:992px) {    
+	.nav-link {
+		display: inline-block;
+	}
+}
+.service-box{
+    max-width:400px
+}
+
+.text-primary{
+    color:#5e8ac7!important
+}
+
+
+.btn-primary{
+    background-color:#5e8ac7;
+    border-color:#5e8ac7
+}
+.btn-primary:active,.btn-primary:focus,.btn-primary:hover{
+    color:#fff;
+    background-color:#4f7bb8!important
+}
+.btn-primary:active,.btn-primary:focus{
+    -webkit-box-shadow:0 0 0 .2rem rgba(240,95,64,.5)!important;
+    box-shadow:0 0 0 .2rem rgba(240,95,64,.5)!important
+}*/

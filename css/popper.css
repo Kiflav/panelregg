@@ -1,0 +1,174 @@
+.link-anchor {
+  position: relative;
+  width: 0;
+  font-size: .8em;
+  opacity: 0;
+  transition: opacity .2s ease-in-out;
+}
+.anchor-wrapper {
+  border: none;
+}
+.anchor-wrapper:hover .link-anchor {
+  opacity: 1;
+}
+
+section h1[id]:focus,
+section h2[id]:focus,
+section h3[id]:focus,
+section h4[id]:focus,
+section h5[id]:focus {
+  outline: 0;
+}
+
+p.thin {
+    font-weight: 100;
+    margin: 0;
+    line-height: 1.2em;
+}
+
+p.bold {
+    font-weight: 900;
+    margin: 0;
+    margin-top: -5px;
+}
+
+.rel {
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    border-style: dotted;
+    border-color: white;
+    border-width: medium;
+}
+.btn-popper {
+	border-radius:50%;
+	border: none;
+	color:#ffffff;
+	background-color:#5f8bc8;
+	font-size: 17px;
+	width: 25px;
+	height: 25px;
+	position: relative;
+	float:right;
+	font-weight: bold;
+	margin-right: 8px;
+	
+}
+.btn-popper:hover, .btn-popper:focus, .btn-popper:active {
+	background-color:#4d5868;	
+}
+
+
+#popup [x-arrow] {
+  position: absolute;
+	z-index: 9999999;
+}
+
+.popper,
+.tooltip {
+    position: absolute;
+    background: #4d5868;
+    width: 300px;
+     
+    padding: 15px;
+    text-align:left;
+	border-radius: 6px;
+	color:#ffffff;
+	z-index: 999999;
+	
+	
+}
+.style5 .tooltip {
+    background: #4d5868;
+    color: #FFFFFF;
+    max-width: 200px;
+    width: auto;
+    font-size: .8rem;
+    padding: .5em 1em;
+}
+.popper .popper__arrow,
+.tooltip .tooltip-arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    position: absolute;
+   	z-index: 999999;
+}
+
+.tooltip .tooltip-arrow,
+.popper .popper__arrow {
+    border-color: #4d5868;
+	}
+.style5 .tooltip .tooltip-arrow {
+    border-color: #4d5868;
+}
+.popper[x-placement^="top"],
+.tooltip[x-placement^="top"] {
+    margin-bottom: 5px;
+}
+.popper[x-placement^="top"] .popper__arrow,
+.tooltip[x-placement^="top"] .tooltip-arrow {
+    border-width: 10px 10px 0 10px;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    bottom: -5px;
+    left: calc(50% - 5px);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.popper[x-placement^="bottom"],
+.tooltip[x-placement^="bottom"] {
+    margin-top: 5px;
+}
+.tooltip[x-placement^="bottom"] .tooltip-arrow,
+.popper[x-placement^="bottom"] .popper__arrow {
+    border-width: 0 10px 10px 10px;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    top: -5px;
+    left: calc(50% - 5px);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.tooltip[x-placement^="right"],
+.popper[x-placement^="right"] {
+    margin-left: 25px;
+}
+.popper[x-placement^="right"] .popper__arrow,
+.tooltip[x-placement^="right"] .tooltip-arrow {
+    border-width: 15px 15px 15px 0;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    left: -15px;
+    top: calc(50% - 5px);
+    margin-left: 0;
+    margin-right: 0;
+}
+.popper[x-placement^="left"],
+.tooltip[x-placement^="left"] {
+    margin-right: 25px;
+}
+.popper[x-placement^="left"] .popper__arrow,
+.tooltip[x-placement^="left"] .tooltip-arrow {
+    border-width: 15px 0 15px 15px;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    right: -15px;
+    top: calc(50% - 5px);
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+/*extra css*/
+@media only screen and (max-width:323px) {
+#popup {
+	font-size:12px;
+}
+}

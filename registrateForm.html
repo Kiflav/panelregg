@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- Facebook Pixel Code -->
+        <script>
+            !(function (f, b, e, v, n, t, s) {
+                if (f.fbq) return;
+                n = f.fbq = function () {
+                    n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+                };
+                if (!f._fbq) f._fbq = n;
+                n.push = n;
+                n.loaded = !0;
+                n.version = "2.0";
+                n.queue = [];
+                t = b.createElement(e);
+                t.async = !0;
+                t.src = v;
+                s = b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t, s);
+            })(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js");
+            fbq("init", "1042786132475689");
+            fbq("track", "PageView");
+        </script>
+        <noscript>
+            <img height="1" width="1" style="display: none;" src="https://www.facebook.com/tr?id=1042786132475689&ev=PageView&noscript=1" />
+        </noscript>
+        <!-- End Facebook Pixel Code -->
+
+        <!-- Google Tag Manager -->
+        <script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    "gtm.start": new Date().getTime(),
+                    event: "gtm.js",
+                });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l !== "dataLayer" ? "&l=" + l : "";
+                j.async = true;
+                j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, "script", "dataLayer", "GTM-WNRVZ8H");
+        </script>
+        <!-- End Google Tag Manager -->
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="format-detection" content="telephone=no" />
+
+        <title>PanelClix - Het grootste Panel van Nederland</title>
+<!--        <link rel="stylesheet" href="css/bootstrap.min-2.css" />-->
+        <link href="css/popper.css" rel="stylesheet" />
+        <link href="css/styles.css?v=1.0.0" rel="stylesheet" />
+        <link href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" />
+
+        <meta name="PanelClix" content="PanelClix" />
+        <meta name="description" content="Geef je mening, spaar punten en wissel je punten in voor geld! Al 500.000 leden gingen je voor." />
+        <meta name="keywords" content="PanelClix, Mening, Onderzoek, Geld verdienen" />
+        <meta name="author" content="PanelClix" />
+        <meta property="og:image" content="https://panelclix.nl/images/fb-meedoen.png" />
+        <meta property="og:url" content="https://www.panelclix.nl" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="PanelClix" />
+        <meta property="og:description" content="Jouw mening is ons wat waard" />
+
+        <!-- Cookieconsent -->
+        <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+        <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+        <script>
+            window.addEventListener("load", function () {
+                window.cookieconsent.initialise({
+                    palette: {
+                        popup: { background: "#323232" },
+                        button: { background: "#5f8bc8" },
+                    },
+                    content: {
+                        message:
+                            "We gebruiken cookies om content en functies voor social media te bieden en om ons websiteverkeer te analyseren. Ook delen we informatie over jouw gebruik van onze site met onze partners voor social media en analyse. Deze partners kunnen deze gegevens combineren met andere informatie die je aan ze hebt verstrekt of die ze hebben verzameld op basis van jouw gebruik van hun services. Indien je gebruik maakt van deze website ga je met het voorgaande akkoord.",
+                        link: "Meer informatie",
+                        href: "https://www.euroclix.nl/cookies",
+                        dismiss: "OK",
+                    },
+                });
+            });
+        </script>
+        <!-- End Cookieconsent -->
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="header-left">
+                <a href="/" class="logo">
+                    <img src="images/logo.svg" alt="PanelClix Logo" class="logo-desktop" />
+                    <img src="images/logo.svg" alt="PanelClix Logo" class="logo-mobile" />
+                </a>
+                <div class="trustpilot-widget">
+                    <a href="https://nl.trustpilot.com/review/www.euroclix.nl" target="_blank">
+                        <div class="trustpilot-stars">
+                            <div class="trustpilot-star trustpilot-star-full">
+                                <img src="images/third-party/trustpilot.svg" alt="Trustpilot Logo" />
+                            </div>
+                            <div class="trustpilot-star trustpilot-star-full">
+                                <img src="images/third-party/trustpilot.svg" alt="Trustpilot Logo" />
+                            </div>
+                            <div class="trustpilot-star trustpilot-star-full">
+                                <img src="images/third-party/trustpilot.svg" alt="Trustpilot Logo" />
+                            </div>
+                            <div class="trustpilot-star trustpilot-star-full">
+                                <img src="images/third-party/trustpilot.svg" alt="Trustpilot Logo" />
+                            </div>
+                            <div class="trustpilot-star trustpilot-star-half-full">
+                                <img src="images/third-party/trustpilot.svg" alt="Trustpilot Logo" />
+                            </div>
+                        </div>
+                        <div class="trustpilot-rating">4.4 van 5 op basis van 487 reviews</div>
+                    </a>
+                </div>
+            </div>
+            <nav class="nav">
+                <div class="dropdown">
+                    <button class="button-component">
+                        <span class="hidden-text">Nederlands</span>
+                        <img src="https://flagcdn.com/nl.svg" alt="Nederlands flag" class="flag" />
+                        <svg class="caret-icon" viewBox="0 0 320 512">
+                            <path fill="currentColor" d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"></path>
+                        </svg>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a href="https://www.panelclix.be/nl/registreren/meedoen/" class="dropdown-item"> Vlaanderen <img src="https://flagcdn.com/be.svg" alt="Vlaanderen flag" class="flag" /> </a>
+                        <a href="https://www.panelclix.be/fr/enregistrer/participez/" class="dropdown-item"> Wallonië <img src="https://flagcdn.com/be.svg" alt="Wallonië flag" class="flag" /> </a>
+                    </div>
+                </div>
+                <a target="_blank" class="login-button" href="https://www.euroclix.nl/login/login">Inloggen</a>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <div class="hero-section">
+            <div class="hero-header">
+                <!-- Background Image -->
+                <div id="hero" class="background-blur"></div>
+                <!-- Main Hero Content -->
+                <div class="main-hero-content-container">
+                    <div class="left-hero-section">
+                        <h1 class="hero-title">
+                            <span class="hero-title-1">Doe mee aan onderzoeken en </span>
+                            <span class="hero-title-2">krijg betaald voor jouw mening! </span>
+                            <span class="hero-title-3">Krijg betaald voor jouw mening! </span>
+                        </h1>
+                        <div class="extra-info-section">
+                            <div class="extra-info-section-text-1">Verdien tot € 3,- per enquête</div>
+                            <div class="extra-info-section-text-2">
+                                <div class="center">
+                                    <div class="circle pulse green"></div>
+                                </div>
+                                <span>25 enquêtes beschikbaar</span>
+                            </div>
+                        </div>
+                        <div class="cards-section">
+                            <div class="card">
+                                <div class="card-top">
+                                    <img class="huishouden" src="images/index/huishouden.svg" alt="Huishouden Icon" />
+                                </div>
+                                <div class="card-bottom">
+                                    <div class="card-bottom-element">
+                                        <img src="images/index/looking-glass-icon.svg" alt="Looking Glass Icon" />
+                                        <span>Huishouden</span>
+                                    </div>
+                                    <div class="card-bottom-element">
+                                        <img src="images/index/euro-icon.svg" alt="Euro Icon" />
+                                        <span><strong>€ 1,50</strong></span>
+                                    </div>
+                                    <div class="card-bottom-element">
+                                        <img src="images/index/clock-icon.svg" alt="Clock Icon" />
+                                        <span id="show-desk">10 minuten</span>
+                                        <span id="show-m">10 min</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card bigger">
+                                <div class="card-top">
+                                    <img src="images/index/region-icoon.svg" alt="Regio Icon" />
+                                </div>
+                                <div class="card-bottom">
+                                    <div class="card-bottom-element">
+                                        <img src="images/index/looking-glass-icon.svg" alt="Looking Glass Icon" />
+                                        <span>Regio</span>
+                                    </div>
+                                    <div class="card-bottom-element">
+                                        <img src="images/index/euro-icon.svg" alt="Euro Icon" />
+                                        <span><strong>€ 0,80</strong></span>
+                                    </div>
+                                    <div class="card-bottom-element">
+                                        <img src="images/index/clock-icon.svg" alt="Clock Icon" />
+                                        <span id="show-desk">4 minuten</span>
+                                        <span id="show-m">4 min</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-top">
+                                    <img src="images/index/groceries-icon.svg" alt="Boodschappen Icon" />
+                                </div>
+                                <div class="card-bottom">
+                                    <div class="card-bottom-element">
+                                        <img src="images/index/looking-glass-icon.svg" alt="Looking Glass Icon" />
+                                        <span>Inkopen</span>
+                                    </div>
+                                    <div class="card-bottom-element">
+                                        <img src="images/index/euro-icon.svg" alt="Euro Icon" />
+                                        <span><strong>€ 1,00</strong></span>
+                                    </div>
+                                    <div class="card-bottom-element">
+                                        <img src="images/index/clock-icon.svg" alt="Clock Icon" />
+                                        <span id="show-desk">5 minuten</span>
+                                        <span id="show-m">5 min</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-hero-section">
+                        <div class="right-hero-section-content">
+                            <div class="alert alert-danger" style="display: none;" id="errorDiv" name="errorDiv"></div>
+                            <div class="right-hero-section-card-top">
+                                Ontvang een aanmeldbonus tot € 3,- (150 Clix)
+                            </div>
+                            <div class="right-hero-section-card-bottom">
+                                <div class="title">Meld je gratis aan</div>
+                                <form role="form" class="form-group" id="registrationForm" method="POST" data-toggle="validator" action="{formHandler}">
+                                    <div class="form-group">
+                                        <input
+                                            name="emailAddress"
+                                            pattern="^([a-zA-ZÀ-ȕ0-9._%+-]+@[a-zA-ZÀ-ȕ0-9.-]+\.[a-z]{2,15}$)"
+                                            type="text"
+                                            class="email form-control validate"
+                                            id="emailAddress"
+                                            placeholder="E-mailadres"
+                                            value="{emailAddress}"
+                                            required
+                                            data-id="emailAddress"
+                                            data-content="Vul een geldig e-mail adres in."
+                                        />
+                                    </div>
+                                    <div class="horizontal-separator">
+                                        <div class="text-separator">of</div>
+                                    </div>
+                                    <div class="social-buttons">
+                                        <a role="button" href="{googlePrefillUrl}" name="googleButton" class="social-button" id="glButton">
+                                            <img src="images/third-party/google.svg" alt="Google" />
+                                        </a>
+                                        <a href="{facebookPrefillUrl}" class="social-button" id="fbConnect">
+                                            <img src="images/third-party/fb.svg" alt="Facebook" />
+                                        </a>
+                                    </div>
+                                    <div class="terms form-group" id="conditions" data-validate-unchecked="Je dient akkoord te gaan met de deelnamevoorwaarden en het privacy beleid." style="position: relative;">
+                                        <div id="uniform-terms" style="padding-top: 12px;">
+                                            <span>
+                                                <input
+                                                    tabindex="5"
+                                                    class="checkbox validate checked"
+                                                    data-validate-unchecked="Je dient akkoord te gaan met de deelnamevoorwaarden en het privacy beleid."
+                                                    required
+                                                    validate="required"
+                                                    id="terms"
+                                                    name="conditions"
+                                                    type="checkbox"
+                                                />
+                                            </span>
+                                        </div>
+                                        <label class="checkbox-label" for="terms">
+                                            Ik ga akkoord met de
+                                            <a href="https://www.euroclix.nl/registration/participationterms" onclick="popup_window('https://www.euroclix.nl/registration/participationterms',800,785); return false;">
+                                                <strong>deelnamevoorwaarden</strong>
+                                            </a>
+                                            en het <a href="http://www.panelclix.com/nl/privacy.html" target="_blank"><strong>privacybeleid</strong></a>.
+                                        </label>
+                                    </div>
+                                    <section class="press">
+                                        <input type="submit" value="Doe ook mee" name="submit" id="submit" style="margin-top: 10px;" />
+                                    </section>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Banner Section -->
+        <div class="banner-section">
+            <div class="banner-elements">
+                <div class="banner-stat">
+                    <img src="images/index/smiley-face.svg" alt="Smiley Face" />
+                    <div class="banner-stat-text">
+                        <div class="banner-stat-title">20+ Jaar</div>
+                        <div class="banner-stat-description">Actief in Nederland</div>
+                    </div>
+                </div>
+                <div class="banner-stat">
+                    <img src="images/index/people-group.png" alt="People Group" />
+                    <div class="banner-stat-text">
+                        <div class="banner-stat-title">100.000+</div>
+                        <div class="banner-stat-description">Panelleden</div>
+                    </div>
+                </div>
+                <div class="banner-stat">
+                    <img src="images/index/euro-coin-stack.svg" alt="Euro Coins" />
+                    <div class="banner-stat-text">
+                        <div class="banner-stat-title">€ 20 mln+</div>
+                        <div class="banner-stat-description">Uitbetaald</div>
+                    </div>
+                </div>
+                <div class="banner-stat">
+                    <img src="images/index/checklist.svg" alt="Checklist" />
+                    <div class="banner-stat-text">
+                        <div class="banner-stat-title">100+</div>
+                        <div class="banner-stat-description">Vragenlijsten per maand</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel for Mobile -->
+            <div class="carousel-banner-wrapper">
+                <div class="carousel-banner">
+                    <div class="carousel-banner-item">
+                        <img src="images/index/smiley-face.svg" alt="Smiley Face" />
+                        <div class="banner-stat-text-carousel">
+                            <div class="banner-stat-title">20+ Jaar</div>
+                            <div class="banner-stat-description">Actief in Nederland</div>
+                        </div>
+                    </div>
+                    <div class="carousel-banner-item">
+                        <img src="images/index/people-group.png" alt="People Group" />
+                        <div class="banner-stat-text-carousel">
+                            <div class="banner-stat-title">100.000+</div>
+                            <div class="banner-stat-description">Panelleden</div>
+                        </div>
+                    </div>
+                    <div class="carousel-banner-item">
+                        <img src="images/index/euro-coin-stack.svg" alt="Euro Coins" />
+                        <div class="banner-stat-text-carousel">
+                            <div class="banner-stat-title">€ 20 mln+</div>
+                            <div class="banner-stat-description">Uitbetaald</div>
+                        </div>
+                    </div>
+                    <div class="carousel-banner-item">
+                        <img src="images/index/checklist.svg" alt="Checklist" />
+                        <div class="banner-stat-text-carousel">
+                            <div class="banner-stat-title">100+</div>
+                            <div class="banner-stat-description">Vragenlijsten per maand</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <span class="indicator active" data-slide="0"></span>
+                <span class="indicator" data-slide="1"></span>
+                <span class="indicator" data-slide="2"></span>
+                <span class="indicator" data-slide="3"></span>
+            </div>
+        </div>
+
+        <!-- How does it work? Section -->
+        <div class="explanation-section">
+            <div style="width: 100%;">
+                <div class="how-it-works-section">
+                    <h2 class="section-title">Hoe werkt het?</h2>
+                    <div class="section-description">
+                        <div class="points-card">
+                            <div class="points-card-inner">
+                                <div class="index-badge">1</div>
+                                <img src="images/how-it-works/profile-checked.svg" alt="profile-checked" />
+                                <div class="points-card-text">
+                                    <p><strong>Meld je gratis aan</strong> en vertel ons wie je bent</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="points-card">
+                            <div class="points-card-inner">
+                                <div class="index-badge">2</div>
+                                <img src="images/how-it-works/money-handshake.svg" alt="profile" />
+                                <div class="points-card-text">
+                                    <p>Doe mee aan <strong>geselecteerde onderzoeken</strong> voor jou</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="points-card">
+                            <div class="points-card-inner">
+                                <div class="index-badge">3</div>
+                                <img src="images/how-it-works/checklist-pen.svg" alt="Earn money" />
+                                <div class="points-card-text">
+                                    <p>Rond onderzoeken af en <strong>verdien geld per enquête</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel">
+                        <button class="carousel-button left" aria-label="Previous slide">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="2 2 20 20" stroke-width="2" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path>
+                            </svg>
+                        </button>
+                        <button class="carousel-button right" aria-label="Next slide">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="2 2 20 20" stroke-width="2" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </button>
+                        <div class="carousel-wrapper">
+                            <div class="carousel-content">
+                                <div class="points-card">
+                                    <div class="points-card-inner">
+                                        <div class="index-badge">1</div>
+                                        <img src="images/how-it-works/profile-checked.svg" alt="profile-checked" />
+                                        <div class="points-card-text">
+                                            <p><strong>Meld je gratis aan</strong> en vertel ons wie je bent</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="points-card">
+                                    <div class="points-card-inner">
+                                        <div class="index-badge">2</div>
+                                        <img src="images/how-it-works/money-handshake.svg" alt="profi" />
+                                        <div class="points-card-text">
+                                            <p>Doe mee aan <strong>geselecteerde onderzoeken</strong> voor jouw</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="points-card">
+                                    <div class="points-card-inner">
+                                        <div class="index-badge">3</div>
+                                        <img src="images/how-it-works/checklist-pen.svg" alt="profile-checked" />
+                                        <div class="points-card-text">
+                                            <p>Rond onderzoeken af en <strong>verdien geld per enquête</strong></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Opinion Section -->
+        <div class="opinion-section">
+            <div class="opinion-container">
+                <div class="opinion-text">
+                    <h2>Jouw mening is waardevol</h2>
+                    <div class="primary-text-section">
+                        <h3>Laat je horen</h3>
+                        <span class="text-section-description">
+                            Geef anoniem je eerlijke mening over afwisselende, leuke onderwerpen zoals producten, reclames, vervoer, werk, studie en maatschappelijke onderzoeken.
+                        </span>
+                    </div>
+                    <div class="secondary-text-section">
+                        <div class="text-section">
+                            <h3>Je stem maakt echt een verschil</h3>
+                            <span class="text-section-description">
+                                Door deelname aan onderzoeken via ons panel kun je bijdragen aan de verbetering van producten en diensten van merken en beleid van de overheid.
+                            </span>
+                        </div>
+                        <div class="text-section">
+                            <h3>En is ons wat waard</h3>
+                            <span class="text-section-description">
+                                Jouw mening is waardevol voor onze opdrachtgevers en daarom belonen we je graag hiervoor.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="opinion-button-wrapper">
+                        <button class="opinion-button">
+                            <span>Meer lezen</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 9l7 7 7-7"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="opinion-image">
+                    <img src="images/opinion/girl-looking-at-phone.jpg" alt="People group" />
+                </div>
+            </div>
+        </div>
+
+        <!-- Extra Section -->
+        <div class="extra-section">
+            <h2 class="extra-title">Extra manieren om geld te verdienen</h2>
+            <div class="extra-content">
+                <div class="extra-left-section">
+                    <img src="images/additional/money-in-pocket.jpg" alt="Money in Pocket" />
+                </div>
+                <div class="extra-right-section">
+                    <div class="extra-card">
+                        <div class="extra-card-icon">
+                            <img src="images/additional/like.svg" alt="Like" />
+                        </div>
+                        <div class="extra-card-content">
+                            <h3>Vertel het een vriend</h3>
+                            <p class="extra-card-description">Verdien tot € 3,- wanneer je iemand aanbrengt</p>
+                        </div>
+                    </div>
+                    <div class="extra-card">
+                        <div class="extra-card-icon">
+                            <img src="images/additional/shopping-bag.svg" alt="Shopping Bag" />
+                        </div>
+                        <div class="extra-card-content">
+                            <h3>Cashback met online shoppen</h3>
+                            <p class="extra-card-description">Verdien geld terug met onze cashback deals bij 2.500+ webshops</p>
+                        </div>
+                    </div>
+                    <div class="extra-card">
+                        <div class="extra-card-icon">
+                            <img src="images/additional/gamen-icoon.svg" alt="Game Icon" />
+                        </div>
+                        <div class="extra-card-content">
+                            <h3>Uittesten van games</h3>
+                            <p class="extra-card-description">Verdien geld met het uittesten en spelen van app games</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <div class="about-section">
+            <h2 class="about-title">Over PanelClix</h2>
+            <div class="about-description">
+                <div class="about-description-subsection">
+                    PanelClix is al ruim 20 jaar één van de belangrijkste panelleveranciers van Nederland. Via ons kun je dagelijks meedoen aan onderzoeken van toonaangevende marktonderzoekbureaus, merken, media, universiteiten en
+                    overheidsinstanties.
+                </div>
+                <div class="about-description-subsection">
+                    De privacy en veiligheid van jouw persoonlijke gegevens zijn van essentieel belang voor ons. We doen er alles aan om jouw gegevens te beschermen en houden ons aan de meest actuele richtlijnen voor marktonderzoek. Jouw
+                    persoonsgegevens zullen nooit gedeeld worden met derden.
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer-section">
+            <div class="footer-content">
+                <div class="footer-link-wrapper">
+                    <a target="_blank" class="footer-link" href="https://www.panelclix.nl/zakelijk/">Onderzoek uitvoeren?</a>
+                    <span class="footer-separator">|</span>
+                </div>
+                <div class="footer-link-wrapper">
+                    <a target="_blank" class="footer-link" href="https://www.panelclix.com/nl/about.html?_ga=2.95482911.2091488770.1740048064-668051224.1732284339">Over PanelClix</a>
+                    <span class="footer-separator">|</span>
+                </div>
+                <div class="footer-link-wrapper">
+                    <a target="_blank" class="footer-link" href="https://www.panelclix.com/nl/faq.html?_ga=2.89839768.2091488770.1740048064-668051224.1732284339">Ik heb een vraag</a>
+                    <span class="footer-separator">|</span>
+                </div>
+                <div class="footer-link-wrapper">
+                    <a target="_blank" class="footer-link" href="https://www.panelclix.com/nl/privacy.html?_ga=2.89839768.2091488770.1740048064-668051224.1732284339">Privacy</a>
+                    <span class="footer-separator">|</span>
+                </div>
+                <div class="footer-link-wrapper">
+                    <a target="_blank" class="footer-link" href="https://www.euroclix.nl/cookies?_ga=2.131602572.2091488770.1740048064-668051224.1732284339">Cookies</a>
+                    <span class="footer-separator">|</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scripts -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/uniform.js"></script>
+        <script src="js/validator.js"></script>
+        <script src="js/index.js"></script>
+        <script>
+            $(document).ready(function () {
+				$('#terms').prop('checked', {conditions});
+				// Initialize uniform on terms checkbox
+                $('input[id="terms"]').uniform();
+	
+                // Navbar toggle
+                $("#navbar-collapse-1").hide();
+                $(".responsive-toggle").click(function () {
+                    $("#navbar-collapse-1").toggle(500);
+                });
+
+                // Scroll functions
+                $("#click, #click1, #click3").click(function () {
+                    $("html, body").animate({ scrollTop: $("body").offset().top }, 2000);
+                });
+                $("#click2").click(function () {
+                    $("html, body").animate({ scrollTop: $("#2").offset().top }, 2000);
+                });
+
+                // Header image switch
+                var images = ["header1.jpg", "header2.jpg", "header3.jpg"];
+                $("#main-top, .mobile-header").css({
+                    "background-image": "url(images/" + images[Math.floor(Math.random() * images.length)] + ")",
+                });
+
+                // Gender server change check
+                if ($("#gender-f:checked").val()) {
+                    $("#gender-f").closest("label").addClass("active");
+                } else if ($("#gender-m:checked").val()) {
+                    $("#gender-m").closest("label").addClass("active");
+                }
+
+                $("#gender").on("click", function () {
+                    if ($(this).hasClass("has-error2")) {
+                        $(this).removeClass("has-error2");
+                    }
+                });
+
+                // Error handling
+                var errors = JSON.parse("{errors}");
+                var errorMessage = "";
+                errors.forEach(function (obj) {
+                    errorMessage += "<li>" + obj.message + "</li>";
+                    if (obj.field != "") {
+                        $("#" + obj.field).addClass("has-error2");
+                    }
+                });
+
+                if ($("#emailAddress").hasClass("has-error2")) {
+                    $("#emailAddress").parent().addClass("has-error has-danger");
+                    $("#emailAddress").removeClass("has-error2");
+                }
+
+                if (errorMessage !== "") {
+                    $("#errorDiv")
+                        .html("<ul>" + errorMessage + "</ul>")
+                        .css({ display: "block" });
+                }
+
+                if ($("#errorDiv").is(":visible")) {
+                    $(".registratie-formulier").addClass("error-in-form");
+                } else {
+                    $(".registratie-formulier").removeClass("error-in-form");
+                }
+
+                if ("" !== "") {
+                    $("#fbConnect").css({ display: "none" });
+                    $("#fbConnected").css({ display: "block" });
+                    $("#fbOff").css({ display: "none" });
+                }
+
+                if ("" !== "") {
+                    $("#fbConnect, #glConnect").css({ display: "none" });
+                    $("#fbConnected, #glConnected").css({ display: "block" });
+                    $("#fbOff").css({ display: "none" });
+                }
+            });
+        </script>
+    </body>
+</html>
